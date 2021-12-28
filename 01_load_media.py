@@ -20,8 +20,8 @@ except:
 
 # Capture video from your webcam
 cap = cv2.VideoCapture(0) #Capture video source zero `/dev/video0`
-cap.set(16, 1920)
-cap.set(9, 1080)
+cap.set(3, 1920)
+cap.set(4, 1080)
 
 while True:
     success, vid = cap.read()
