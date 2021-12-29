@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 
 # Color Detection
-from time import time, sleep
 path = 'resources/songhua-river.jpg'
 # Create a hue slider that helps us
 # find the correct colour to select
